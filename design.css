@@ -1,0 +1,142 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(90, 15%, 22%);
+    overflow: hidden;
+  }
+li {
+    display: inline;
+  }
+li {
+    float: left;
+  }
+a {
+    display: block;
+    padding: 8px;
+    background-color: #421212;
+  }
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: hsl(90, 15%, 22%);
+  }
+  .active {
+    background-color: hsl(90, 15%, 22%);
+  }
+  .link{
+    background-color: rgb(230, 177, 169);
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin: auto;
+    width: 30%;
+    margin-top: 15px;
+  }
+.what{
+    text-align: justify;
+}
+.why{
+    text-align: center;
+}
+body{
+    background-color: rgb(237, 181, 162);
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.bengu{
+    height: 250px;
+    width: 350px;
+    background-color: orangered;
+    border: #351f1f solid;
+    text-align: center;
+    align-content: center;
+    align-self: flex-start;
+}
+.white{
+    height: fit-content;
+    height: 250px;
+    width: 300px;
+    background-color: rgb(170, 166, 166);
+    border: #351f1f solid;
+    text-align: center;
+    align-content: center;
+    align-self: center; 
+}
+.gold{
+    height: 250px;
+    width: 380px;
+    background-color: rgba(218, 165, 32, 0.375);
+    border: #351f1f solid;
+    text-align: center;
+    align-content: center;
+    align-self: flex-end;
+}
+.arrow{
+    background-color: orangered;
+    color: black;
+}
+.arrow2{
+    background-color: rgb(170, 166, 166);
+    color: black;
+}
+.arrow3{
+    background-color: rgba(218, 165, 32, 0.375);
+    color: black;
+}
+
+.arrow4{
+    background-color: antiquewhite;
+    color: black;
+    background-color: none;
+}
+.main{
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 5em 5em;
+    align-content: center;
+}
+div.gallery {
+    border: 1px solid #713807;
+    width: 180px;
+    height: 240px;
+    background-color: antiquewhite;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    margin-top: 20px;
+  }
+  
+  div.gallery:hover {
+    border: 3px solid #713807;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 5px;
+    text-align: center;
+  }
+.center{
+    margin-top: 15px;
+    text-align: center;
+}
+.smol{
+    display: block;
+    margin: auto;
+    width: 17%;
+}
