@@ -134,9 +134,13 @@ div.gallery {
 .center{
     margin-top: 15px;
     text-align: center;
+    font-family: "Trirong", serif;
 }
 .smol{
     display: block;
     margin: auto;
     width: 17%;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
 }
